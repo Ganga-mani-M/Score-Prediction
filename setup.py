@@ -1,23 +1,3 @@
-# from setuptools import setup, find_packages
-# from typing import List
-
-# def get_requirements(file_path: str) -> List[str]:
-#     with open(file_path, 'r') as f:
-#         requirements = f.read().splitlines()
-#     # remove empty lines and editable installs
-#     return [req for req in requirements if req and not req.startswith('-e')]
-
-# setup(
-#     name='scoreprediction',
-#     version='0.0.1',
-#     author='ganga mani',
-#     author_email='gangamani15@gmail.com',
-#     packages=find_packages(where="src"),  # look inside src
-#     package_dir={"": "src"},              # map package root to src
-#     install_requires=get_requirements('requirements.txt'),
-# )
-
-
 from setuptools import find_packages,setup
 from typing import List
 
